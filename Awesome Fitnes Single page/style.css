@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#header{
+  background-image: url(img/image1.jpeg);
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-nav li a{
+  float: right;
+  color: #fff !important;
+}
+.navbar-brand img{
+  width: 150px;
+  margin-left: 30px;
+}
+.navbar-toggler{
+  border: none!important;
+  outline: none!important;
+}
+nav .fa-bars{
+  color: #fff;
+  font-size: 26px;
+}
+
+/*-----welcome text ---------*/
+.welcome{
+  background-color: #fff;
+  margin-top: -140px;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+  padding: 50px 100px;
+}
+.welcome h1{
+  color: #333;
+}
+
+/*----about us-----*/
+#about .col-md-6{
+  padding: 20px 10px;
+}
+#about h3{
+  margin: 20px auto;
+}
+/*------services---------*/
+#services{
+  background-color: #efefef;
+}
+#services .col-md-4{
+  padding: 20px;
+}
+#services .col-md-4 h4{
+  padding: 5px;
+}
+#services .col-md-4 img{
+  width: 50px;
+  height: 50px;
+}
+#services .col-md-4 p{
+  text-align: justify;
+  padding: 5px;
+}
+/*-----Features--------*/
+#features{
+  background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/image3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.feature-box{
+  height: 120px;
+}
+.feature-box .feature-left{
+  height: 120px;
+  width: 20px;
+  float: left;
+}
+.feature-box .feature-left .fa{
+font-size: 50px;
+padding-top: 13px;
+}
+.feature-box .feature-right{
+  padding-left: 50px;
+}
+.feature-box .feature-right h4{
+  padding-top: 10px;
+  padding-left: 50px;
+  text-align: left;
+}
+.feature-box .feature-right p{
+  padding-left: 50px;
+  text-align: left;
+}
+
+/*-----testimonial-------*/
+#testimonial .col-md-4{
+  padding: 10px 30px;
+}
+#testimonial img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: -30px;
+  margin-top: -40px;
+  border: 5px solid #fff;
+  margin-bottom: 30px;
+}
+.review{
+  font-size: 16px;
+  padding: 10px 10px 10px 30px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.review .fa-twitter{
+  color: #013f7e;
+}
+.review span{
+  color: #013f7e;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*----Subscribe------*/
+.Subscribe{
+  background-color: #013f7e;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+  margin-bottom: -20px;
+}
+.Subscribe h3, .Subscribe p{
+  color: #fff;
+}
+.Subscribe .input-group{
+  background: #fff;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 30px;
+}
+.Subscribe .form-control{
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+.Subscribe .input-group-append{
+  background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+  border-radius: 30px;
+}
+.Subscribe .input-group-text{
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.Subscribe .btn:focus{
+  box-shadow: none;
+}
+
+/*----footer---*/
+
+#footer{
+  background-color: #efefef;
+  color: #013f7e;
+}
+.footer-logo {
+  width: 150px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+#footer h1{
+  font-size: 15px;
+  text-align:left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#footer p{
+  font-size: 12px;
+  text-align:left;
+}
+#footer .city{
+  margin-left: 25px;
+}
+#footer .row .fa{
+  padding-right: 20px;
+  font-size: 15px;
+}
+#footer hr{
+  margin-top: 10px;
+}
+#footer .fa-heart-o{
+  color: red;
+  font-size: 17px;
+}
+#footer .copyright{
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: -30px;
+}
